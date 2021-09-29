@@ -28,10 +28,10 @@ v.4: Upgrade TCP communication for using php server
 #define MAX_TCPBUF         100
 #define MY_IP_ADDRESS      "192.168.1.36"
 #define MY_NETMASK         "255.255.255.0"
-#define MY_GATEWAY         "192.168.1.165"
-#define MY_NAMESERVER      "192.168.1.165"
-#define LOG_SERVER         "192.168.1.165"
-#define SERVER_IP         	"192.168.1.165"
+#define MY_GATEWAY         "192.168.1.75"
+#define MY_NAMESERVER      "192.168.1.75"
+#define LOG_SERVER         "192.168.1.75"
+#define SERVER_IP         	"192.168.1.75"
 //#define SCREEN_SERVER      "192.168.1.15"
 #define SERVERPORT         80
 #define  TCP_TIMEOUT       150
@@ -60,8 +60,8 @@ v.4: Upgrade TCP communication for using php server
 #define  MSG_BUF_SIZE            256
 
 #define     OS_TIME_DLY_HMSM_EN  1
-#define	HTTP_HEADER1		   "GET /themeForParking/mytraffic.php?cmd="
-#define	HTTP_HEADER2		   "&dev=TermIn&ip=192.168.1.36 HTTP/1.1\r\nHost:192.168.1.165:80\r\n\r\n"
+#define	HTTP_HEADER1		   "GET /ThemeForParking_Rethymno_2/mytraffic.php?cmd="
+#define	HTTP_HEADER2		   "&dev=TermIn&ip=192.168.1.36 HTTP/1.1\r\nHost:192.168.1.75:80\r\n\r\n"
 
 
 // GENERAL
